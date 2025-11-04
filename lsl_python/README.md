@@ -44,4 +44,4 @@
     pip install pylsl
     ```
     
-    https://github.com/labstreaminglayer/pylsl/tree/master/pylsl/examples
+    https://github.com/labstreaminglayer/pylsl/tree/master/pylsl/examples 
