@@ -28,7 +28,7 @@
     
 - **LSL-actiCHamp**
     
-    https://github.com/brain-products/LSL-actiCHamp
+    https://github.com/brain-products/LSL-actiCHamp 
     
 - **LabRecorder**
     
