@@ -28,7 +28,7 @@ start_time = time.time()
 
 # 5초 동안 데이터 수집
 while time.time() - start_time < 5:
-    sample, timestamp = eeg_inlet.pull_sample()
+    sample, timestamp = eeg_inlet.pull_sample() 
     if sample:
         all_samples.append(dict(zip(channel_names, sample)))
 
