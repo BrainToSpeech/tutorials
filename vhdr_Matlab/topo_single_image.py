@@ -20,7 +20,7 @@ channels = []
 for i in range(127):
   label = chanlocs[i][0][0] # label
   x = chanlocs[i][4][0][0] # x
-  y = chanlocs[i][5][0][0] # y
+  y = chanlocs[i][5][0][0] # y 
   z = chanlocs[i][6][0][0] # z
   channels.append([label, x, y, z])
 
