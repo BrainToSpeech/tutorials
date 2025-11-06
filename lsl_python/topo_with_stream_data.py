@@ -34,7 +34,7 @@ all_samples = []
 start_time = time.time()
 
 print("Collecting data for 5 seconds...")
-# 5초 동안 데이터 수집
+# 5초 동안 데이터 수집 
 while time.time() - start_time < 5:
     sample, timestamp = eeg_inlet.pull_sample()
     if sample:
