@@ -27,7 +27,7 @@
     [https://www.brainproducts.com/downloads/more-software](https://www.brainproducts.com/downloads/more-software/)
     
 - **LSL-actiCHamp**
-    
+     
     https://github.com/brain-products/LSL-actiCHamp 
     
 - **LabRecorder**
