@@ -6,7 +6,7 @@ Brain-to-speech technology refers to a cutting-edge interface that directly tran
 ### Neural Signal Acquisition
 - Sensors, such as EEG (electroencephalography) electrodes or invasive devices like ECoG (electrocorticography), record brain activity. These signals are often captured from regions involved in speech processing, such as the motor cortex or Broca's area.
 
-### Signal Decoding
+### Signal Decoding 
 - Advanced algorithms, often powered by machine learning or deep learning models, analyze and interpret the neural signals. These models are trained to identify patterns corresponding to phonemes, words, or complete sentences.
 
 ### Speech Synthesis
