@@ -1,6 +1,5 @@
 from models import *
 from utils import *
-
 import pickle
 import random
 import argparse
