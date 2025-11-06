@@ -12,7 +12,7 @@ for stmuli in image_files:
   print("img: ", stmuli)
   img_file = visual.ImageStim(win, image=stmuli,pos=(0, 0))
   img_file.draw()
-  win.flip()
+  win.flip() 
   core.wait(0.1)  # sleep 1 sec.
 
 core.wait(3)
