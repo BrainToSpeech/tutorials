@@ -37,7 +37,7 @@ stim_i = [[0] * 20, ['']*20]
 
 for i in range(len(stim_def[0])):
   # perception
-  stim_p[0][i] = stim_def[0][i]
+  stim_p[0][i] = stim_def[0][i] 
   stim_p[1][i] = stim_def[1][i] + '_p'
   
   # overt
