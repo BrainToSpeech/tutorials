@@ -41,7 +41,7 @@ while time.time() - start_time < 5:
         all_samples.append(sample)
 print("Data collected.")
 
-# 데이터를 numpy 배열로 변환
+# 데이터를 numpy 배열로 변환 
 data_array = np.array(all_samples).T  # Transpose to match MNE structure
 
 # MNE 정보 객체 생성
