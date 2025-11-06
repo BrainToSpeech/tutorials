@@ -21,7 +21,7 @@ while not channels.empty():
 
 print("Channel names:", channel_names)
 print("Channel count:", len(channel_names))
-
+ 
 # 데이터 수집을 위한 변수 초기화
 all_samples = []
 start_time = time.time()
