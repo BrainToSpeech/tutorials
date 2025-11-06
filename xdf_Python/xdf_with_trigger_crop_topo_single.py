@@ -17,7 +17,7 @@ event_id_dict = {
   'rest': 0
 }
 
-# 데이터 스트림 선택
+# 데이터 스트림 선택 
 for stream in streams:
     if stream['info']['type'][0] == 'EEG':  # EEG 데이터 선택
         eeg_data = np.array(stream['time_series']).T
