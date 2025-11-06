@@ -39,7 +39,7 @@
     pip install -r requirements.txt
     ```
     
-    https://github.com/labstreaminglayer/pylsl
+    https://github.com/labstreaminglayer/pylsl 
     ```bash
     pip install pylsl
     ```
