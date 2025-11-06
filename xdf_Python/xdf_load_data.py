@@ -17,7 +17,7 @@ for stream in streams:
         eeg_times = np.array(stream['time_stamps'])
         if not eeg_times.size:
             eeg_times = np.arange(eeg_data.shape[1]) / float(stream['info']['nominal_srate'][0])
-        # 채널 이름 추출
+        # 채널 이름 추출 
         ch_names = [ch['label'][0] for ch in stream['info']['desc'][0]['channels'][0]['channel']]
 
 # 모든 채널을 EEG 타입으로 설정

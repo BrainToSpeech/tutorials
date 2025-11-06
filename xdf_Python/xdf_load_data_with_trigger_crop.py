@@ -1,7 +1,7 @@
 # %%
 import mne
 import numpy as np
-import pyxdf
+import pyxdf 
 import matplotlib
 matplotlib.use('qtagg')  # 혹은 사용 가능한 다른 GUI 백엔드를 사용
 
