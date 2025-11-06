@@ -12,7 +12,7 @@ eeg_streams = resolve_stream('type', 'EEG')
 eeg_inlet = StreamInlet(eeg_streams[0])
 
 # 스트림 정보를 가져옵니다
-info = eeg_inlet.info()
+info = eeg_inlet.info() 
 
 # StreamInfo 객체에서 채널 정보를 읽습니다
 channels = info.desc().child("channels").child("channel")

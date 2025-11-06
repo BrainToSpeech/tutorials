@@ -14,7 +14,7 @@ info = eeg_inlet.info()
 channels = info.desc().child("channels").child("channel")
 channel_names = []
 
-while not channels.empty():
+while not channels.empty(): 
     # 각 채널의 이름을 리스트에 추가합니다
     channel_names.append(channels.child_value("label"))
     channels = channels.next_sibling()
