@@ -10,7 +10,7 @@ file_path = 'eeg.xdf'
 streams, header = pyxdf.load_xdf(file_path)
 
 # 각 트리거 별로 딕셔너리 생성
-event_id_dict = {
+event_id_dict = { 
   '': -3,
   'start': -1,
   'end': -2,
