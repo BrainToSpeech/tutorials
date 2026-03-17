@@ -26,7 +26,7 @@ The main function of this implementation (train) is responsible for training and
 
 We encourage you to use a conda environment to manage your dependencies and create an isolated workspace for this project. This will help you avoid potential conflicts with other packages installed on your system.
 
-### Installing Conda
+### Installing Conda 
 
 If you don't have conda installed, you can download [Anaconda](https://www.anaconda.com/products/distribution) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html). Follow the installation instructions for your platform.
 
