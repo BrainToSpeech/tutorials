@@ -21,7 +21,7 @@ The main function of this implementation (train) is responsible for training and
 5. Training and Evaluation: The model is trained for a specified number of epochs. During training, DDPM and Diff-E are optimized separately, and their loss functions are combined using a weighting factor (α (alpha)). The model is evaluated on the test set at regular intervals, and the best performance metrics are recorded.
 
 6. Command Line Arguments: The main function accepts command-line arguments for specifying the number of subjects to process and the device to use for training (e.g., `'cuda:0'`).
-
+ 
 ## Using a Conda Environment
 
 We encourage you to use a conda environment to manage your dependencies and create an isolated workspace for this project. This will help you avoid potential conflicts with other packages installed on your system.
