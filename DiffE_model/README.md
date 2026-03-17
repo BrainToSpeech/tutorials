@@ -11,7 +11,7 @@ This repository provides an implementation of an EEG classification model using 
 The main function of this implementation (train) is responsible for training and evaluating the EEG classification model. The implementation is divided into the following steps:
 
 1. Loading and Preparing Data: The data is loaded using the `load_data`, and split into training and testing sets using the `get_dataloader`. The batch size and path to the data should be specified.
-
+ 
 2. Defining the Model: The model consists of four main components: DDPM, Encoder, Decoder, and Linear Classifier. Their dimensions and parameters should be specified before training.
  
 3. Loss Functions and Optimizers: The implementation uses L1 Loss for training the DDPM and Mean Squared Error Loss for the classification task. `RMSprop` is used as the optimizer for both DDPM and Diff-E, and `CyclicLR` is employed as the learning rate scheduler.
