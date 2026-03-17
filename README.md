@@ -12,7 +12,7 @@ Brain-to-speech technology refers to a cutting-edge interface that directly tran
 ### Speech Synthesis
 - The decoded neural signals are converted into audible speech using text-to-speech (TTS) engines or other voice synthesis technologies.
 
-### Feedback and Refinement
+### Feedback and Refinement 
 - Users may receive feedback to adjust or refine their thought processes, improving the accuracy and fluency of the system over time.
 
 ## Applications
