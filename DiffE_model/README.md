@@ -23,7 +23,7 @@ The main function of this implementation (train) is responsible for training and
 6. Command Line Arguments: The main function accepts command-line arguments for specifying the number of subjects to process and the device to use for training (e.g., `'cuda:0'`).
  
 ## Using a Conda Environment
-
+ 
 We encourage you to use a conda environment to manage your dependencies and create an isolated workspace for this project. This will help you avoid potential conflicts with other packages installed on your system.
 
 ### Installing Conda 
